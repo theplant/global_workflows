@@ -23,7 +23,7 @@ mkdir -p "$INSTALL_DIR"
 
 # Copy workflow files
 echo "Installing to $INSTALL_DIR..."
-cp "$TEMP_DIR"/*.md "$INSTALL_DIR/" 2>/dev/null || true
+cp "$TEMP_DIR"/workflows/*.md "$INSTALL_DIR/" 2>/dev/null || true
 
 # Count installed files
 INSTALLED_COUNT=$(ls -1 "$INSTALL_DIR"/*.md 2>/dev/null | wc -l | tr -d ' ')

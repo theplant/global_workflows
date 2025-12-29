@@ -1,5 +1,5 @@
 ---
-description: AI Self-Correction Loop - A universal pattern where AI owns the full feedback loop: writing automated checks first, implementing to satisfy them, and iterating until all validations pass.
+description: AI Self-Correction Loop - A universal pattern where AI owns the full feedback loop writing automated checks first, implementing to satisfy them, and iterating until all validations pass.
 ---
 
 ## Goal
